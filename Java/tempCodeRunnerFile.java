@@ -1,1 +1,1 @@
-parameterized constructor
+use of “Static’ keyword
