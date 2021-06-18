@@ -1,1 +1,1 @@
-use of “Static’ keyword
+Useof_static2
