@@ -18,7 +18,7 @@ class Constr {
     }
 }
 
-class Marks{
+class Marks {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter names of 2 students");
@@ -29,6 +29,8 @@ class Marks{
         int b = sc.nextInt();
 
         Constr obj = new Constr(s1, s2, a, b);
+
+        sc.close();
 
     }
 }
