@@ -3,8 +3,6 @@
  * calculate area, with inner class calculate perimeter.
  */
 
-import java.util.*;
-
 class Outerclass {
 
     void ar(int r) {
