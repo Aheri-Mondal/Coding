@@ -1,7 +1,5 @@
 /* Write a program to pass and return an object from methods. */
 
-import java.util.*;
-
 class Arrange {
 
     int num;
@@ -18,11 +16,12 @@ class Arrange {
     }
 }
 
-class pass_return_obj
-{
-    Arrange a = new Arrange();
-    Arrange b = new Arrange();
-    a.value(5);
-    b.check(a);
-    System.out.println();
+class pass_return_obj {
+    public static void main(String[] args) {
+        Arrange a = new Arrange();
+        Arrange b = new Arrange();
+        a.value(5);
+        b.check(a);
+        System.out.println();
+    }
 }
