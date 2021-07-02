@@ -22,6 +22,6 @@ class pass_return_obj {
         Arrange b = new Arrange();
         a.value(5);
         b.check(a);
-        System.out.println();
+        System.out.println(b.check(a));
     }
 }
