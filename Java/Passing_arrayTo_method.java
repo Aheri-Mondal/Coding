@@ -39,5 +39,7 @@ public class Passing_arrayTo_method {
 
         System.out.println("Maximum value in the array is::" + pg.max(myArray));
         System.out.println("Minimum value in the array is::" + pg.min(myArray));
+
+        sc.close();
     }
 }
