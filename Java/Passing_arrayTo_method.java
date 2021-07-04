@@ -35,7 +35,7 @@ public class Passing_arrayTo_method {
         for (int i = 0; i < size; i++) {
             myArray[i] = sc.nextInt();
         }
-        Passing_arrayTomethod pg = new Passing_arrayTomethod();
+        Passing_arrayTo_method pg = new Passing_arrayTo_method();
 
         System.out.println("Maximum value in the array is::" + pg.max(myArray));
         System.out.println("Minimum value in the array is::" + pg.min(myArray));
