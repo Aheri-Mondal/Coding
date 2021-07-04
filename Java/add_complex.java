@@ -1,7 +1,5 @@
 /* Write a program to add two complex numbers. */
 
-import java.lang.*;
-
 public class add_complex {
     double real, img;
 
