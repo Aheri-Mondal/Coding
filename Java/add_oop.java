@@ -28,6 +28,8 @@ public class add_oop {
         Calculate c = new Calculate();
         c.getdata(a, b);
         System.out.println("Sum of the two numbers is : " + c.showresult());
+
+        sc.close();
     }
 
 }
