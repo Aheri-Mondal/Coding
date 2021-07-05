@@ -35,6 +35,7 @@ public class Age {
 
         System.out.println("Enter name and age of second user");
         String n2 = sc.nextLine();
+        sc.nextLine();
         int a2 = sc.nextInt();
         user2.getdata(n2, a2);
 
