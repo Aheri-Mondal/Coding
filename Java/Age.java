@@ -46,5 +46,7 @@ public class Age {
 
         else
             System.out.println(user2.showname() + " is older");
+
+        sc.close();
     }
 }
