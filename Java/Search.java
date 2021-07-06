@@ -30,5 +30,7 @@ class Search {
         if (flag == 0) {
             System.out.println("Element " + search + " not found");
         }
+
+        sc.close();
     }
 }

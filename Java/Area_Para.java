@@ -40,5 +40,7 @@ class Area_Para {
         obj = new ConstrOverload(len, br);
         obj = new ConstrOverload(a, b, c);
 
+        sc.close();
+
     }
 }
