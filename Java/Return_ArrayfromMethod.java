@@ -14,11 +14,13 @@ public class Return_ArrayfromMethod {
             myArray[i] = sc.nextInt();
         }
         return myArray;
+
     }
 
     public static void main(String args[]) {
         Return_ArrayfromMethod obj = new Return_ArrayfromMethod();
         int arr[] = obj.createArray();
         System.out.println("Array created is :: " + Arrays.toString(arr));
+
     }
 }
