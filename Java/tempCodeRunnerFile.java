@@ -1,1 +1,0 @@
-Useof_static2
