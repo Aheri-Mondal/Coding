@@ -31,6 +31,5 @@ class Search {
             System.out.println("Element " + search + " not found");
         }
 
-        sc.close();
     }
 }
